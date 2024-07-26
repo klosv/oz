@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>설문조사 과제</title>
+    </head>
+    <body>
+      <header>
+        <h1><em>헬스 설문조사 참여</em></h1>
+        <p><strong>모든 항목에 <mark>빠짐없이</mark> 체크해주세요</strong></p>
+      </header>
+        <hr>
+      <main>
+        <form>
+            <fieldset>
+                <legend>개인정보</legend>
+                <label for="name">이름</label>
+                <input type="text" 
+                name="name" 
+                id="name" placeholder="본명을 입력하세요">
+                <br>
+                <label for="mail">메일</label>
+                <input type="mail" id="email" placeholder="메일 주소를 쓰세요">
+            </fieldset>
+            <fieldset>
+                <legend>설문</legend>
+                
+                <p>3대가 어떻게 되십니까?</p>
+                <input type="radio" id="teen" name="weight">
+                <label for="teen">100대</label>
+                <input type="radio" id="twenty" name="weight">
+                <label for="twenty">200대</label>
+                <input type="radio" id="thirty" name="weight">
+                <label for="thirty">300대</label>
+                <input type="radio" id="fourty" name="weight">
+                <label for="fourty">400대</label>
+                <input type="radio" id="fifty" name="weight">
+                <label for="fifty">500대</label>
+                <input type="radio" id="other" name="weight">
+                <label for="other">600대</label>
+
+                <p>헬스장 선택 시 그 기준은 어떻게 되시나요?</p>
+                <input type="checkbox" id="position" name="academy">
+                <label for="position">위치</label>
+                <input type="checkbox" id="price" name="academy">
+                <label for="position">비용</label>
+                <input type="checkbox" id="teacher" name="academy">
+                <label for="position">강사</label>
+                <input type="checkbox" id="infra" name="academy">
+                <label for="position">시설</label>
+            </fieldset>
+            <fieldset>
+                <legend>원하는 트레이너 상</legend>
+                <textarea rows="30" cols="100" name="comment"></textarea>
+            </fieldset>
+            <input type="submit">
+        </form>
+      </main>
+        <hr>
+      <footer>
+        <p>오즈코딩스쿨 백엔드 5기 화이팅!</p>
+      </footer>
+    </body>
+</html>
